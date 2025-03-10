@@ -1176,7 +1176,7 @@ void pixelFill(int _startPixel, int _endPixel, int _myColor){
 		display2.drawBitmap(0,0,NVRADIO, 128, 64, 1);
 		if(Enc.isClicked()){
 			
-			songSel = random(9,24);
+			songSel = random(9,25);
 			songTog =! songTog;
 			myDFPlayer.play(songSel);
 				FolkTog = 0;
